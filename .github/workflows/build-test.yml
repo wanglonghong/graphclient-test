@@ -1,7 +1,7 @@
 name: graphclient-buildtest
 on: [push]
 jobs:
-  check-bats-version:
+  graphclient-buildtest:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
